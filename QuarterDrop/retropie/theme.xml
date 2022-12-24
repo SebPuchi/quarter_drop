@@ -1,0 +1,49 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.jpg</path>
+		</image>
+<image name="md_image">
+            <origin>.5 .5</origin>
+	    <zIndex>7</zIndex>
+            <pos>0.5 0.3</pos>
+            <maxSize>0.7 0.35</maxSize>
+         </image>
+  
+      
+      <textlist name="gamelist">
+         <pos>0.05 0.5</pos>
+         <size>0.9 0.5</size>
+      </textlist>
+
+   </view>
+
+
+<feature supported="video">
+      <view name="video">
+         <image name="crt-bezel" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.4</pos>
+	    <zIndex>2</zIndex>
+            <maxSize>0.01 0.01</maxSize>
+            <path>./../images/blank.png</path>
+         </image>
+        
+  	
+         <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.4</pos>
+	    <zIndex>3</zIndex>
+            <maxSize>0.5 0.5</maxSize>
+            <delay>0.2</delay>
+            <default>./../videos/static.mp4</default>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>false</showSnapshotDelay>
+         </video>
+      </view>
+   </feature>
+
+</theme>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     QuarterDrop
+version:        1.0
+author:         snakerake
+based on:       "CRT"
+-->
+<theme>
+   <formatVersion>4</formatVersion>
+   <include>./_inc/templates/4x3.xml</include>
+</theme>
